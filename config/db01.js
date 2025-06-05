@@ -7,6 +7,7 @@ const connectDb = async () => {
     console.log(`Connected To Database ${mongoose.connection.host} `.bgWhite);
   } catch (error) {
     console.log("DB Error", error);
+    //now: 
   }
 };
 module.exports = connectDb;
